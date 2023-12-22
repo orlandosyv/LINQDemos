@@ -22,6 +22,8 @@ namespace LINQDemos
                 new University { Id = 3, Name = "University of California", City = "Berkeley", Country = "USA" },
                 new University { Id = 4, Name = "University of British Columbia", City = "Vancouver", Country = "Canada" },
                 new University { Id = 5, Name = "University of Toronto", City = "Toronto", Country = "Canada" },
+                new University { Id = 6, Name = "Universidad Nacional de Ingenieria", City = "Lima", Country = "Peru" },
+                new University { Id = 7, Name = "Universidad Peruana de Ciencias Aplicadas", City = "Lima", Country = "Peru" }
             ];
 
             Students =
@@ -50,7 +52,9 @@ namespace LINQDemos
                 new Student { Id = 22, FirstName = "Cindy", LastName = "Anderson", UniversityId = 0 },
                 new Student { Id = 23, FirstName = "Ralph", LastName = "Thomas", UniversityId = 1 },
                 new Student { Id = 24, FirstName = "Pam", LastName = "Thomas", UniversityId = 1 },
-                new Student { Id = 25, FirstName = "Dave", LastName = "Jackson", UniversityId = 2 }
+                new Student { Id = 25, FirstName = "Dave", LastName = "Jackson", UniversityId = 2 },
+                new Student { Id = 26, FirstName = "Orly", LastName = "YV", UniversityId = 6 },
+                new Student { Id = 27, FirstName = "Sergi", LastName = "Osyv", UniversityId = 7 }
                 ];
         }
     }
